@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+}
+.logo-icon{
+  width:100px;
+  height:100px;
+}
+.logo,.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  
+}
+.logo h2{
+  color:rgb(97, 219, 251);
+}
+.nameProject{
+  color:#fff;
+  font-size: 18px;
+  padding-right:20px;
+}
+.headerbody{
+  background-color: #282c34;
+  color:white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerbody img{
+  filter: grayscale();
+
+}
+.list li{
+  list-style: none;
+}
+.list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(97, 219, 251); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 20px; /* Also needed for space (tweak if needed) */
+    margin-left: 10px;
+}
